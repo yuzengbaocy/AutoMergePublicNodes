@@ -82,54 +82,38 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_1|3.5MB/s
+  name: 🇺🇸US_1|4.6MB/s
   network: tcp
-  port: 443
-  server: austria-2.moritech.net
+  port: '443'
+  reality-opts:
+    public-key: BU04qHLOuVV1eMFw2nIS-8phR1WupwMsvVJPC6LJD0k
+    short-id: '!!str d0144156b092d3fe'
+  server: 189.24.119.26
+  servername: www.dhl.de
   tls: true
   type: vless
   udp: true
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|3.3MB/s
-  network: ws
-  port: '2053'
-  server: 142.248.218.34
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /
+  uuid: 433c0703-dff5-48b2-8926-2eefcc3a5086
   xudp: true
-- name: US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_2|3.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 0mABGF57PFBZ8piB3UfUEIzH9vkCe_fnopIMp9yeYls
+    short-id: '!!str aa7f41ebbdff8c87'
+  server: 189.24.110.99
+  servername: www.telekom.de
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: 🇺🇸US_4|1.8MB/s
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1.2MB/s
-  password: 'null'
-  port: 443
-  server: purecambogiasl.live
-  tls: true
-  type: http
-  username: 'null'
-- name: 🇺🇸US_6|2.6MB/s
+  uuid: 433c0703-dff5-48b2-8926-2eefcc3a5086
+  xudp: true
+- name: 🇺🇸US_3|1.6MB/s
   password: None
   port: 443
   server: crosscards.site
@@ -137,7 +121,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_7|2.1MB/s
+- name: 🇺🇸US_4|1.9MB/s
   password: None
   port: 443
   server: webdrone.club
@@ -145,59 +129,6 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_8|1.2MB/s
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.7MB/s
-  password: None
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|3.3MB/s
-  password: None
-  port: 443
-  server: carolinafreigh.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_11|2.3MB/s
-  password: None
-  port: 443
-  server: tzoa.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|1.6MB/s
-  password: None
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|1.8MB/s
-  network: ws
-  port: 443
-  server: 172.67.169.99
-  servername: 8-m16.PHuKEt2035.KdnS.fr
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  ws-opts:
-    headers:
-      Host: 8-m16.PHuKEt2035.KdnS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -325,6 +256,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188
